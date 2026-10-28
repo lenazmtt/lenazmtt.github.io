@@ -4,49 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timetable</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        table {
-            border-collapse: collapse;
-            background-color: #ffffff;
-        }
-        th, td {
-            border: 1px, solid, #000000;
-            padding: 6px 6px;
-            text-align: center;
-            font-size: 11px;
-            vertical-align: middle;
-        }
-        th {
-            background-color: #dcdcdc;
-            font-weight: bold;
-        }
-        .main-header {
-            background-color: #dcdcdc;
-            font-size: 13px;
-            font-weight: bold;
-            text-align: center;
-        }
-        .time {
-            background-color: #dcdcdc;
-            font-weight: bold;
-            width: 90px;
-        }
-        .subject-box {
-            background-color: #f2f2f2;
-            text-align: center;
-        }
-        .room {
-            text-align: right;
-            display: block;
-            margin-top: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="timetable.css">
 </head>
 <body>
 
@@ -56,7 +14,7 @@
         <body>
             <tr>
                 <th class="time"></th>
-                <th colspan="5" class="main-header">CA-IDM-5.1 - 26/27</th>
+                <th colspan="5" class="title">CA-IDM-5.1 - 26/27</th>
             </tr>
             <!-- Colspan is the amount of columns in the table (right to left)-->
             <tr>
@@ -77,7 +35,7 @@
                     IDM5.2 - 26/27<br>
                     <strong>CAIDM-506-2202<br>
                     User Interface Design</strong>
-                    <span class="room">ICA A105</span>
+                    <div class="room">ICA A105</div>
                 </td>
                 <!-- Rowspan is the amount of rows that specific row needs (up to down)-->
                  <!-- Strong makes the text bold-->
@@ -88,7 +46,7 @@
                     <strong>CAIDM-506-2201<br>
                     Website Development - CORE <br>
                         UNIT</strong>
-                    <span class="room">ICA A111</span>
+                    <div class="room">ICA A111</div>
                 </td>
                 <td></td>
             </tr>
@@ -103,7 +61,7 @@
                     CA-GAM-5.1- 26/27, CA-IDM-5.1 - 26/27<br>
                     <strong>CDKSK-503-2328<br>
                     English for Academic Purposes</strong>
-                    <span class="room">ICA D007</span>
+                    <div class="room">ICA D007</div>
                 </td>
                 <td></td><td></td>
             </tr>
@@ -135,7 +93,7 @@
                     CA-GRD-5.1B- 26/27, CA-IDM-5.1 - 26/27<br>
                     <strong>CAGDN-506-1504<br>
                     Digital Media in Visual Arts</strong>
-                    <span class="room">ICA A112</span>
+                    <div class="room">ICA A112</div>
                 </td> 
                 <td></td><td></td>
                 <td rowspan="7" class="subject-box">
@@ -144,7 +102,7 @@
                     <strong>CAGDN-506-1505<br>
                     Introduction to Graphic Design <br>
                     Principles - CORE UNIT</strong>
-                    <span class="room">Paola ICT Room 143</span>
+                    <div class="room">Paola ICT Room 143</div>
                 </td>
             </tr>
             <tr>
@@ -154,7 +112,7 @@
                     Dominic Tringali<br>
                     <strong>CAIMA-506-1501<br>
                     Contextual Studies in Interactive Media</strong>
-                    <span class="room">ICA D003</span>
+                    <div class="room">ICA D003</div>
                 </td>
             </tr>
             <tr>
