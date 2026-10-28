@@ -41,11 +41,10 @@
             background-color: #f2f2f2;
             text-align: center;
         }
-        .room-bottom-right {
+        .room {
             text-align: right;
-            font-weight: bold;
             display: block;
-            margin-top: 8px;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -59,6 +58,7 @@
                 <th class="time"></th>
                 <th colspan="5" class="main-header">CA-IDM-5.1 - 26/27</th>
             </tr>
+            <!-- Colspan is the amount of columns in the table (right to left)-->
             <tr>
                 <th class="time">Time</th>
                 <th>Monday</th>
@@ -72,18 +72,23 @@
                 <td class="time">8:00 - 8:30</td>
                 <td></td><td></td>
                 <td rowspan="7" class="subject-box">
-                    Greta Marie Ellul CA-IDM-5.1 - 26/27,<br>
-                    Kimberly Parascandolo IDM5.2 - 26/27<br>
+                    Greta Marie Ellul <br> CA-IDM-5.1 - 26/27,
+                    Kimberly Parascandolo <br>
+                    IDM5.2 - 26/27<br>
                     <strong>CAIDM-506-2202<br>
                     User Interface Design</strong>
-                    <span class="room-bottom-right">ICA A105</span>
+                    <span class="room">ICA A105</span>
                 </td>
+                <!-- Rowspan is the amount of rows that specific row needs (up to down)-->
+                 <!-- Strong makes the text bold-->
+                  <!-- BR breaks the line, starts a new line-->
+                   <!-- Span groups the text without breaking the layout of previous functions-->
                 <td rowspan="7" class="subject-box">
                     Matthew Cumbo<br>
                     <strong>CAIDM-506-2201<br>
                     Website Development - CORE <br>
                         UNIT</strong>
-                    <span class="room-bottom-right">ICA A111</span>
+                    <span class="room">ICA A111</span>
                 </td>
                 <td></td>
             </tr>
@@ -98,7 +103,7 @@
                     CA-GAM-5.1- 26/27, CA-IDM-5.1 - 26/27<br>
                     <strong>CDKSK-503-2328<br>
                     English for Academic Purposes</strong>
-                    <span class="room-bottom-right">ICA D007</span>
+                    <span class="room">ICA D007</span>
                 </td>
                 <td></td><td></td>
             </tr>
@@ -130,9 +135,17 @@
                     CA-GRD-5.1B- 26/27, CA-IDM-5.1 - 26/27<br>
                     <strong>CAGDN-506-1504<br>
                     Digital Media in Visual Arts</strong>
-                    <span class="room-bottom-right">ICA A112</span>
+                    <span class="room">ICA A112</span>
+                </td> 
+                <td></td><td></td>
+                <td rowspan="7" class="subject-box">
+                    Matthew Mamo<br>
+                    CA-GRD-5.1A- 26/27, CA-IDM-5.1 - 26/27<br>
+                    <strong>CAGDN-506-1505<br>
+                    Introduction to Graphic Design <br>
+                    Principles - CORE UNIT</strong>
+                    <span class="room">Paola ICT Room 143</span>
                 </td>
-                <td></td><td></td><td></td><td></td>
             </tr>
             <tr>
                 <td class="time">12:30 - 13:00</td>
@@ -141,21 +154,12 @@
                     Dominic Tringali<br>
                     <strong>CAIMA-506-1501<br>
                     Contextual Studies in Interactive Media</strong>
-                    <span class="room-bottom-right">ICA D003</span>
+                    <span class="room">ICA D003</span>
                 </td>
-                <td></td><td></td>
-                
             </tr>
             <tr>
                 <td class="time">13:00 - 13:30</td>
                 <td></td><td></td>
-                <td rowspan="5" class="subject-box">
-                    Matthew Mamo<br>
-                    CA-GRD-5.1A- 26/27, CA-IDM-5.1 - 26/27<br>
-                    <strong>CAGDN-506-1505<br>
-                    Introduction to Graphic Design Principles - CORE UNIT</strong>
-                    <span class="room-bottom-right">Paola ICT Room 143</span>
-                </td>
             </tr>
             <tr>
                 <td class="time">13:30 - 14:00</td>
@@ -167,11 +171,11 @@
             </tr>
             <tr>
                 <td class="time">14:30 - 15:00</td>
-                <td></td><td></td><td></td>
+                <td></td><td></td>
             </tr>
             <tr>
                 <td class="time">15:00 - 15:30</td>
-                <td></td><td></td><td></td><td></td>
+                <td></td><td></td>
             </tr>
             <tr>
                 <td class="time">15:30 - 16:00</td>
